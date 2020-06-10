@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const NewsItemBlock = styled.div`
-    display: felx;
+    display: flex;
     .thumbnail{
         margin-right: 1rem;
         img{
