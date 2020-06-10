@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
-import axios from 'axios';
-import NewsList from './components/NewsList';
-
+import React from 'react'
+import NewsList from './components/NewsList'
+import Categories from './components/Categories'
 /*
   const [data, setData] = useState(null);
   const onClick = async () => {
@@ -17,7 +16,10 @@ import NewsList from './components/NewsList';
   */
 function App() {
   return (
-    <NewsList />
+    <>
+      <Categories />
+      <NewsList />
+    </>
   );
 }
 
